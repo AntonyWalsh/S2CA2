@@ -1,0 +1,24 @@
+pos:	22,548
+neg:	16,717
+neu:	63,077
+tot:  	102,342
+
+% pos: 22
+% neg: 16
+% neu: 62
+
+May 29:	686
+May 30: 3246
+
+June 5: 290	64 pos 46 neg 180 neu (took day previous week)
+June 4: 350	77 pos 56 neg 217 neu (took day previous week)
+June 5: 569	125 pos 91 neg 353 neu
+June 6: 3326	732 pos 532 neg 2062 neu
+
+June 17: 246 	54.12 39 neg 153 neu (average day abouve below)
+
+
+June 12: 453
+June 13: 3407
+
+30
