@@ -1,7 +1,13 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[6]:
+# In[3]:
+
+
+# To run download the file with a .py extension
+# Then in a command prompt type "Pyton got_dash"
+# The datafile "GoT Sentiment.csv" needs to be in the "c:\dash" directory
+# Point a web browser to http://127.0.0.1:8050/ to see the dashboard
 
 
 import dash
@@ -15,19 +21,9 @@ app = dash.Dash(__name__)
 
 
 
-#sentiment = pd.read_csv('C:\\dash\\GoT Sentiment.csv')
-#fig = px.histogram(sentiment, x='date', y=['positive','negative','neutral'], 
-#                   title = "This is title",barmode='group'
-#                   labels={
-#                     "sepal_length": "Sepal Length (cm)",
-#                     "sepal_width": "Sepal Width (cm)",
-#                     "variable": "Species of Iris"
-#                 },                 
-#                  )
-
 sentiment = pd.read_csv('C:\\dash\\GoT Sentiment.csv')
 
-fig = px.histogram(sentiment, x='date', nbins=20, y=['positive','negative','neutral'], 
+fig = px.histogram(sentiment, x='date', nbins=20, y=['positive','negative','neutral'], width=1200, height=650,
                     title = "GoT Sentiment per Month",barmode='group',
                     labels={
                      "date": "Month",
